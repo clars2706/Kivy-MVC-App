@@ -29,7 +29,7 @@ class TipModel:
     
     @property
     def total_per_person(self):
-        return (self.bill_amount + self.tip_percent) / self.num_people
+        return (self.bill_amount + self.tip_amount) / self.num_people
 
     # creates a setter property for the related attribute.
     # Use Case: obj_name.bill_amount = 24.00
